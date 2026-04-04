@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="node_type">interface</value>
+  <value name="node_subtype">unknown</value>
+  <value name="node_nsName">WxConfigStore.util</value>
+  <value name="node_pkg">WxConfigStore</value>
+  <value name="is_public">false</value>
+  <value name="shared">c3RhdGljIGNsYXNzIEdlbkNhbGxhYmxlIGltcGxlbWVudHMgQ2FsbGFibGU8SURhdGE+CnsKCUlE
+YXRhIHBpcGVsaW5lOwoJTlNOYW1lIE5TU2VydmljZU5hbWU7CglTZXNzaW9uIHNlc3M7Cglsb25n
+IHRpbWUgPSAtMTsKCQoJcHVibGljIEdlbkNhbGxhYmxlKElEYXRhIHBpcGVsaW5lLCBOU05hbWUg
+TlNTZXJ2aWNlTmFtZSwgU2Vzc2lvbiBzZXNzKQoJewoJCXRoaXMucGlwZWxpbmUgPSBwaXBlbGlu
+ZTsKCQl0aGlzLk5TU2VydmljZU5hbWUgPSBOU1NlcnZpY2VOYW1lOwoJCXRoaXMuc2VzcyA9IHNl
+c3M7Cgl9CgoJcHVibGljIElEYXRhIGNhbGwoKSB0aHJvd3MgRXhjZXB0aW9uIHsKCQkvLyBUT0RP
+IEF1dG8tZ2VuZXJhdGVkIG1ldGhvZCBzdHViCgkJdHJ5IAoJCXsKCQkgICBTZXJ2aWNlVGhyZWFk
+IHNlcnZ0aCA9IFNlcnZpY2UuZG9UaHJlYWRJbnZva2UoTlNTZXJ2aWNlTmFtZSwgc2VzcywgcGlw
+ZWxpbmUsIHRpbWUpOwoJCSAgIAoJCSAgIElEYXRhIE91dHB1dCA9IHNlcnZ0aC5nZXRJRGF0YSgp
+OwoJCSAgIAoJCSAgIHJldHVybiBPdXRwdXQ7CgkJICAgCgkJfQoJCWNhdGNoIChFeGNlcHRpb24g
+ZSkKCQl7CgkJCXRocm93IG5ldyBTZXJ2aWNlRXhjZXB0aW9uKCJVbmFibGUgdG8gaW52b2tlIHRo
+ZSBzZXJ2aWNlICIgKyBOU1NlcnZpY2VOYW1lICsiIC0gIisgZS5nZXRNZXNzYWdlKCkpOwoJCX0K
+CX0KfQoKcHJpdmF0ZSBzdGF0aWMgZmluYWwgVmFsdWVzIGNvbnZlcnQoSGFzaHRhYmxlIGhUKQp7
+CiAgLy8gRm9sbG93aW5nIHN0YXRlbWVudCBnZXRzIGFsbCBhcnJheXMgaW4gdGhpcyBvYmplY3Qu
+CiAgYm9vbGVhbiBudWxsRmxhZyA9IGZhbHNlOwogIE9iamVjdFtdIGhUQXJyYXkgPSBoVC52YWx1
+ZXMoKS50b0FycmF5KCk7CiAgRW51bWVyYXRpb24gaFRFbnVtZXJhdGlvbiA9IGhULmtleXMoKTsK
+ICBWYWx1ZXMgb3V0Ym91bmQgPSBuZXcgVmFsdWVzKCk7CgogIGZvciAoaW50IGkgPSAwOyBpIDwg
+aFRBcnJheS5sZW5ndGg7IGkrKykKICB7CiAgICBTdHJpbmcga2V5ID0gKFN0cmluZykgaFRFbnVt
+ZXJhdGlvbi5uZXh0RWxlbWVudCgpOwogICAgaWYgKGhUQXJyYXlbaV0gaW5zdGFuY2VvZiBqYXZh
+LmxhbmcuU3RyaW5nKQogICAgewogICAgICBvdXRib3VuZC5wdXQoa2V5LCAoU3RyaW5nKSBoVEFy
+cmF5W2ldKTsKICAgIH0KICAgIGVsc2UgaWYgKGhUQXJyYXlbaV0gaW5zdGFuY2VvZiBqYXZhLnV0
+aWwuSGFzaHRhYmxlKQogICAgewogICAgICBWYWx1ZXMgaW50ZXJuYWxPYmplY3QgPSBjb252ZXJ0
+KChIYXNodGFibGUpIGhUQXJyYXlbaV0pOwogICAgICBpZiAoaW50ZXJuYWxPYmplY3QgPT0gbnVs
+bCkKICAgICAgewogICAgICAgIG51bGxGbGFnID0gdHJ1ZTsKICAgICAgICByZXR1cm4gbnVsbDsK
+ICAgICAgfQogICAgICBvdXRib3VuZC5wdXQoa2V5LCBpbnRlcm5hbE9iamVjdCk7CiAgICB9CiAg
+ICBlbHNlCiAgICB7CiAgICAgIFN5c3RlbS5vdXQucHJpbnRsbigiQ29udmVyc2lvbiBGYWlsdXJl
+OiIgKyAidW5zdXBwb3J0ZWQgdHlwZSB3aXRoaW4gaW5ib3VuZCBIYXNodGFibGUuIik7CiAgICAg
+IHJldHVybiBudWxsOwogICAgfQogIH0KICByZXR1cm4gb3V0Ym91bmQ7Cn0JCgk=</value>
+  <value name="encodeutf8">true</value>
+  <value name="extends"></value>
+  <array name="implements" type="value" depth="1">
+  </array>
+  <array name="imports" type="value" depth="1">
+    <value>java.net.InetAddress</value>
+    <value>java.net.UnknownHostException</value>
+    <value>com.wm.util.Debug</value>
+    <value>java.io.*</value>
+    <value>java.util.*</value>
+    <value>java.util.concurrent.Callable</value>
+    <value>java.util.concurrent.CancellationException</value>
+    <value>java.util.concurrent.ExecutionException</value>
+    <value>java.util.concurrent.ExecutorService</value>
+    <value>java.util.concurrent.Executors</value>
+    <value>java.util.concurrent.Future</value>
+    <value>java.util.concurrent.TimeUnit</value>
+    <value>java.util.concurrent.TimeoutException</value>
+    <value>java.lang.System</value>
+    <value>com.wm.app.b2b.server.*</value>
+    <value>com.wm.util.Table</value>
+    <value>java.text.*</value>
+    <value>com.wm.lang.ns.*</value>
+    <value>com.wm.app.b2b.util.GenUtil</value>
+  </array>
+</Values>

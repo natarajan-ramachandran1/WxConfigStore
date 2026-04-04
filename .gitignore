@@ -1,0 +1,50 @@
+# Sensitive configuration files - DO NOT COMMIT
+config/empw.dat
+config/passman.cnf
+config/txnPassStore.dat
+config/WORK-txnPassStore.dat
+config/globalVariables.cnf
+
+# Backup files
+*.bak
+manifest.bak
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Build artifacts
+*.class
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Log files
+*.log
+
+# Package files (if creating releases)
+*.zip
+*.tar.gz
+*.tar
+
+# Node modules (if any JavaScript tooling)
+node_modules/
+
+# Python cache (if any Python scripts)
+__pycache__/
+*.pyc
+*.pyo
+
+# Git merge files
+*.orig
