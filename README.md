@@ -32,12 +32,29 @@ A robust configuration management framework for webMethods Integration Server th
    xcopy WxConfigStore <IS_HOME>\IntegrationServer\packages\WxConfigStore /E /I /H
    ```
 
-2. **Set Permissions** (Linux/Unix)
-   ```bash
-   chmod -R 755 <IS_HOME>/IntegrationServer/packages/WxConfigStore
+2. **Configure File Access Control**
+   
+   **Important:** Before activating the package, configure file access permissions in Integration Server.
+   
+   Edit the file: `<IS_HOME>/IntegrationServer/packages/WmPublic/config/fileAccessControl.cnf`
+   
+   Add the following entries to allow the package to read and write configuration files:
+   
+   **Windows:**
+   ```properties
+   allowedWritePaths=<IS_HOME>\\IntegrationServer\\packages\\WxConfigStore\\config\\*\\config.xml
+   allowedReadPaths=<IS_HOME>\\IntegrationServer\\packages\\WxConfigStore\\config\\*\\config.xml
    ```
+   
+   **Note:** The wildcard `*` allows access to all environment subdirectories (DEV, TEST, PROD, etc.)
 
-3. **Activate Package**
+3. **Restart Integration Server** (if fileAccessControl.cnf was modified)
+   ```bash
+   # Windows
+   <IS_HOME>\IntegrationServer\bin\shutdown.bat
+   <IS_HOME>\IntegrationServer\bin\startup.bat
+
+4. **Activate Package**
    - Navigate to Integration Server Administrator: `http://<server>:<port>`
    - Go to **Packages** → **Management** → **Activate/Inactivate Packages**
    - Locate **WxConfigStore** in the inactive packages list
