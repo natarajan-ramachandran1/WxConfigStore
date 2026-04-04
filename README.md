@@ -169,6 +169,28 @@ Access the configuration manager at:
 http://<server>:<port>/WxConfigStore
 ```
 
+#### Screenshots
+
+**Home Page**
+
+![Home Page](UI/Home.png)
+
+**Configuration Manager - Main View**
+
+![Configuration Manager](UI/Main.png)
+
+**Adding a New Configuration**
+
+![Add Configuration](UI/AddConfig.png)
+
+![Add Configuration Form](UI/AddConfig1.png)
+
+**Encryption Support**
+
+![Encryption Option](UI/Encrypt1.png)
+
+![Encrypted Value](UI/Encrypt2.png)
+
 **Features:**
 - ✅ View all configurations in a table
 - ✅ Add new configurations (files created automatically)
