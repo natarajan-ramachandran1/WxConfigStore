@@ -24,8 +24,6 @@ A robust configuration management framework for webMethods Integration Server th
 
 ## 🚀 Installation
 
-### Method 1: Manual Installation
-
 1. **Copy Package Files**
    ```bash
    # Copy the entire WxConfigStore directory to your Integration Server packages directory
@@ -60,13 +58,6 @@ A robust configuration management framework for webMethods Integration Server th
    - Locate **WxConfigStore** in the inactive packages list
    - Click **Activate** to enable the package
    - The package will automatically initialize with default settings
-
-### Method 2: Using Deployer
-
-1. Create a deployment package including WxConfigStore
-2. Deploy to target Integration Server
-3. **Package is automatically activated during deployment** - no manual activation required
-4. Verify package is enabled and initialized
 
 ## ⚙️ Configuration
 
