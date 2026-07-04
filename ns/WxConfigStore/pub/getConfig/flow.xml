@@ -467,7 +467,7 @@
 
   <!-- nodes -->
 
-<INVOKE TIMEOUT="" SERVICE="WxConfigStore.pub:loadConfigValuesXML" VALIDATE-IN="$none" VALIDATE-OUT="$none">
+<INVOKE TIMEOUT="" SERVICE="WxConfigStore.startup:loadConfigValuesXML" VALIDATE-IN="$none" VALIDATE-OUT="$none">
   <COMMENT>---Load config to cache---</COMMENT>
 </INVOKE>
 

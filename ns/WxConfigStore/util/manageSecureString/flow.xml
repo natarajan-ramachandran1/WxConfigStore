@@ -1290,7 +1290,7 @@
 
   <!-- nodes -->
 
-<INVOKE NAME="true" TIMEOUT="" SERVICE="WxConfigStore.pub:loadConfigValuesXML" VALIDATE-IN="$none" VALIDATE-OUT="$none">
+<INVOKE NAME="true" TIMEOUT="" SERVICE="WxConfigStore.startup:loadConfigValuesXML" VALIDATE-IN="$none" VALIDATE-OUT="$none">
   <COMMENT>---Load the configurations with the updated password---</COMMENT>
 </INVOKE>
 </BRANCH>
